@@ -189,7 +189,29 @@ body {
 }
 
 .technology_item_dot-img {
-    
+    margin-top: 0 !important;
+}
+
+.group-dot-and-img {
+    position: relative;
+}
+
+.technology_item_dot-img_line {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.technology_item_dot-img_line_4 {
+    display: none;
+}
+
+.group-dot-and-img .technology_item_dot-img_line_last {
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    left: unset;
 }
 
 .technology_item_title {
