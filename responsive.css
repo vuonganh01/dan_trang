@@ -3,6 +3,10 @@
     .contact-us .contact-us_bg-img-mobile {
         display: none;
     }
+
+    .group-dot-and-img .technology_item_dot-img_line_mobile {
+        display: none;
+    }
 }
 
 /* Tablet & Mobile */
@@ -28,9 +32,37 @@
         width: 100%;
     }
 
-    .technology_item_dot-img {
+    .group-dot-and-img {
         order: -1;
         margin-right: 3%;
+    }
+
+    .technology_item_dot-img {
+        /* margin-right: 3%; */
+    }
+
+    .technology .technology_item .technology_item_dot-img_line {
+        display: none;
+    }
+
+    .technology_item_dot-img_line_mobile {
+        position: absolute;
+        top: 0;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .technology_item_dot-img_line_mobile_first {
+        top: 8px;
+    }
+
+    .technology_item_dot-img_line_mobile_4 {
+        display: none;
+    }
+
+    .technology_item_dot-img_line_mobile_last {
+        bottom: 8px;
+        top: unset;
     }
 
     .technology_item_description {
